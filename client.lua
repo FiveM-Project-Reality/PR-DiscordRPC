@@ -23,6 +23,6 @@ Citizen.CreateThread(function()
 		
 		SetRichPresence(presenceSays[randomPresence] .. GetStreetNameFromHashKey(GetStreetNameAtCoord(table.unpack(GetEntityCoords(player)))))
 		SetDiscordRichPresenceAssetText('Project Reality')
-		Citizen.Wait(20000)
+		Citizen.Wait(60000 * 5)
 	end
 end)
